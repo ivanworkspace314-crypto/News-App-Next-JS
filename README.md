@@ -4,7 +4,7 @@ A Next.js 14 application demonstrating advanced routing patterns including route
 
 ## Live Demo
 
-- Production: https://news-app-next-js-puce.vercel.app/
+- Production: https://news-app-next-js-2mhe.vercel.app/
 
 ## Tech Stack
 
