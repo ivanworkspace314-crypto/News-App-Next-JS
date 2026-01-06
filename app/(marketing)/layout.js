@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Next.js Page Routing & Rendering',
+  title: 'News App',
   description: 'Learn how to route to different pages.',
 };
 
