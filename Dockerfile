@@ -42,11 +42,11 @@ RUN chown -R nextjs:nodejs /app
 # Switch to non-root user
 USER nextjs
 
-# Expose port
+# Expose port (will be overridden by Render's PORT env var)
 EXPOSE 3000
 
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
 
-# Start the application
-CMD ["node", "server.js"]
+# Start the application (respects PORT env variable from Render)
+CMD ["sh", "-c", "node server.js"]

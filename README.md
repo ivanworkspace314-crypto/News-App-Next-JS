@@ -2,6 +2,10 @@
 
 A Next.js 14 application demonstrating advanced routing patterns including route groups, parallel routes, and middleware.
 
+## Live Demo
+
+- Production: https://news-app-next-js-puce.vercel.app/
+
 ## Tech Stack
 
 - **Next.js 14.1.0** - React framework with App Router
